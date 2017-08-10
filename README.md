@@ -9,9 +9,15 @@ La siguiente, es la implementación de una aplicación de tipo Terminal. Esta te
 
 ![](img/factorymodel.png)
 
+Para compilar
+
+```bash
+mvn compile
+```
+
 Para ejecutar la aplicación:
 
-```java
+```bash
 mvn exec:java  -Dexec.mainClass=test.Main
 ```
 

@@ -5,7 +5,6 @@
  */
 package edu.eci.pdsw.patterns.factory;
 
-import edu.eci.pdsw.patterns.factory.WelcomeTip;
 import java.util.Scanner;
 
 /**
@@ -23,6 +22,7 @@ public class Terminal {
         
         while (!exit) {
             System.out.print("$ ");
+            System.out.flush();
             String command = scanner.next();
 
             switch (command) {
@@ -42,4 +42,5 @@ public class Terminal {
         }
 
     }
+
 }

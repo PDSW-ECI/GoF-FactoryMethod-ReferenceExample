@@ -18,7 +18,7 @@ mvn compile
 Para ejecutar la aplicación:
 
 ```bash
-mvn exec:java  -Dexec.mainClass=test.Main
+mvn exec:java  -Dexec.mainClass=edu.eci.pdsw.patterns.factory.Terminal
 ```
 
 Para cambiar la configuración de la aplicación: Modificar el método getFactoryInstance() de la clase WelcomeTipFactory.

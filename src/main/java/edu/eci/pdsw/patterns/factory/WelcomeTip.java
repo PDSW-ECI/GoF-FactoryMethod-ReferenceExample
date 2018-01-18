@@ -11,6 +11,6 @@ package edu.eci.pdsw.patterns.factory;
  */
 public interface WelcomeTip {
     
-    public abstract String getWelcomeMessage();
+    public String getWelcomeMessage();
     
 }
